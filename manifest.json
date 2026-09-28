@@ -1,0 +1,29 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Far Lands Expedition Stabilizer",
+    "description": "Safety net + diagnostics for real extreme-coordinate exploration on Bedrock 1.26.51. Use Heart of the Sea to open the control panel. Does NOT replace terrain.",
+    "uuid": "c3f8a1b2-4d5e-6f70-8a9b-0c1d2e3f4a5b",
+    "version": [1, 2, 0],
+    "min_engine_version": [1, 26, 0]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "d4e5f6a7-8b9c-0d1e-2f3a-4b5c6d7e8f90",
+      "version": [1, 2, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.9.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.0.0"
+    }
+  ]
+}
